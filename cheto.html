@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Te amo Cheto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="screen1" class="screen active">
+    <img src="1.gif" alt="cake" class="image"/>
+    <h1> ♡ Feliz Cumpleaños Sharon  ͡° ͜ʖ ͡° ♡</h1>
+    <p>te amo muchísimo ✨</p>
+    <button onclick="goToScreen2()">clic &lt;3</button>
+  </div>
+
+  <div id="screen2" class="screen">
+    <img src="2.gif" alt="letter" class="image"/>
+    <p>knock knock .. abre el sobre! (∩´﹏`∩)</p>
+    <button onclick="showMessage()">abrir &lt;3</button>
+  </div>
+
+  <div id="screen3" class="screen">
+    <div id="messageBox"></div>
+  </div>
+  <audio id="bgMusic" src="song.mp3" loop></audio>
+  <script src="script.js"></script>
+</body>
+</html>
